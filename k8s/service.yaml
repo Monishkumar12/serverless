@@ -7,7 +7,7 @@ spec:
   template:
     spec:
       containers:
-        - image:  quay.io/monishkumar/microservice-app
+        - image:  quay.io/monishkumar/microservice-app:latest
           ports:
             - containerPort: 8080 
           env: 
