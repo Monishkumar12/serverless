@@ -1,7 +1,8 @@
 apiVersion: serving.knative.dev/v1 
 kind: Service 
 metadata:
-  name: echo 
+  name: demo-service
+  namespace: service-demo
 spec:
   template:
     spec:
